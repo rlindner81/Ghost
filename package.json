@@ -21,7 +21,8 @@
   "main": "./core/index",
   "scripts": {
     "start": "node index",
-    "test": "grunt validate --verbose"
+    "test": "grunt validate --verbose",
+    "setup-pg": "npm ci --production && npm i pg@latest --no-save"
   },
   "engines": {
     "node": ">=6.9.0"
