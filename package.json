@@ -21,8 +21,7 @@
   "main": "./core/index",
   "scripts": {
     "start": "node index",
-    "test": "grunt validate --verbose",
-    "setup-pg": "npm ci --production && npm i pg@latest --no-save"
+    "test": "grunt validate --verbose"
   },
   "engines": {
     "node": ">=6.9.0"
@@ -80,8 +79,8 @@
     "xml": "1.0.1"
   },
   "optionalDependencies": {
-    "mysql": "2.1.1",
-    "pg": "6.1.2"
+    "mysql": "^2.18.1",
+    "pg": "^7.18.2"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
