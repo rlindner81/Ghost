@@ -80,7 +80,7 @@
   },
   "optionalDependencies": {
     "mysql": "^2.18.1",
-    "pg": "^7.18.2"
+    "pg": "8.5.1"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
@@ -106,7 +106,7 @@
     "should": "11.2.1",
     "should-http": "0.1.1",
     "sinon": "1.17.7",
-    "sqlite3": "^4.1.1",
+    "sqlite3": "5.0.0",
     "supertest": "3.0.0",
     "tmp": "0.0.31"
   },
